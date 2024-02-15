@@ -152,7 +152,7 @@ def display_invoice_table(result, ratio_frais_structure=0.05):
 
 # Main Streamlit app function
 def main():
-    st.title("Dashboard - Optimiseur de JEH (avec Gurobi)- TSE Junior Etudes")
+    st.title("Dashboard - Optimiseur de JEH- TSE Junior Etudes")
     st.markdown("""Ce dashboard interactif est conçu pour faciliter l'analyse et la planification financière des missions de la TSE Junior Etudes en termes de JEH.""")
 
     multi = ''' Objectifs : 

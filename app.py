@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import gurobipy as gp
 from gurobipy import GRB
 
-# Fonction modifiée pour utiliser Gurobi pour l'optimisation
+# Fonction modifiée pour l'optimisation
 def optimize_gurobi(budget_tot, nb_phase, intervenants, taux_phase):
     c = 42.34  # Coût de cotisations par JEH, ne change pas
     val = budget_tot  # Valeur objective ajustée au budget total
